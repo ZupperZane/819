@@ -1,0 +1,40 @@
+package com.example.ood_class_1;
+
+public class MenuItem {
+    String name;
+    Double price;
+    String category;
+
+    MenuItem(String Name,Double Price,String Category){
+        name = Name;
+        price = Price;
+        category = Category;
+    }
+
+    String getname(){
+        return this.name;
+    }
+    void setname(String name){
+        this.name= name;
+    }
+
+    double getprice(){
+        return this.price;
+    }
+    void setprice(Double price){
+        this.price= price;
+    }
+
+    String getcategory(){
+        return this.category;
+    }
+    void setcategory(String category){
+        this.category= category;
+    }
+
+    String displayItemInfo(){
+        String info= ("The Item " +name+" costs "+price+"$ and is of the category: "+category);
+        return info;
+    }
+
+}
