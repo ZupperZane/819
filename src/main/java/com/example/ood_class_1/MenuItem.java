@@ -5,7 +5,7 @@ public class MenuItem {
     Double price;
     String category;
 
-    MenuItem(String Name,Double Price,String Category){
+    public MenuItem(String Name,Double Price,String Category){
         name = Name;
         price = Price;
         category = Category;
@@ -32,7 +32,7 @@ public class MenuItem {
         this.category= category;
     }
 
-    String displayItemInfo(){
+    public String displayItemInfo(){
         String info= ("The Item " +name+" costs "+price+"$ and is of the category: "+category);
         return info;
     }
