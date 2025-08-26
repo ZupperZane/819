@@ -17,7 +17,7 @@ public class test {
         Cafe Dorans= new Cafe();
         Dorans.addMenuItem1(Tea);
         Dorans.addMenuItem2(Biscuit);
-        Dorans.addMenuItem2(Donut);
+        Dorans.addMenuItem3(Donut);
         Double y= Dorans.placeOrder(Order1);
         Dorans.displayMenu();
     }

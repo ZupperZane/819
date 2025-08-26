@@ -33,7 +33,7 @@ public class MenuItem {
     }
 
     public String displayItemInfo(){
-        String info= ("The Item " +name+" costs "+price+"$ and is of the category: "+category);
+        String info= ("The Item " +this.name+" costs "+this.price+"$ and is of the category: "+this.category);
         return info;
     }
 
