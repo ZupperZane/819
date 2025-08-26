@@ -1,3 +1,5 @@
+package com.example.ood_class_1;
+
 public class Song {
     String Title;
     String Artist;
