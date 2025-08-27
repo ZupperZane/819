@@ -5,7 +5,7 @@ public class Song {
     String Artist;
     Double Duration;
 
-    void song(String title, String artist, Double duration){
+    public Song(String title, String artist, Double duration){
         this.Title=title;
         this.Artist=artist;
         this.Duration=duration;
