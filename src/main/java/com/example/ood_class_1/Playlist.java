@@ -15,9 +15,8 @@ public class Playlist {
         Songs.remove(song);
     }
 
-    void playAllSongs() {
-        //plays all songs
-    }
+    void playAllSongs() {//plays all songs//
+         }
 
     void setnull(Playlist playlist) {
         this.Name = null;
